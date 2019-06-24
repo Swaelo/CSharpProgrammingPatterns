@@ -1,0 +1,34 @@
+﻿// ================================================================================================================================
+// File:        #SCRIPTNAME#.cs
+// Description:
+// Author:      Harley Laurie https://www.github.com/Swaelo/
+// ================================================================================================================================
+
+using UnityEngine;
+
+public class #SCRIPTNAME# : State
+{
+    //Base State class virtual function overrides
+    protected override void OnStateInitialize(StateMachine Machine = null)
+    {
+        base.OnStateInitialize(Machine);
+    }
+
+    //Called by the StateMachine when entering into this State
+    protected override void OnStateEnter()
+    {
+
+    }
+
+    //Called by the StateMachine when exiting out of this State, before the new State is entered into
+    protected override void OnStateExit()
+    {
+
+    }
+
+    //Called by the StateMachines Update method (only when this is the active state)
+    protected override void OnStateUpdate()
+    {
+
+    }
+}
